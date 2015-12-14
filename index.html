@@ -1,23 +1,30 @@
 ---
 layout: default
 ---
+  
+  <header class="gds-principles">
+    <h1>Government Digital Service 
+      <strong>
+        <span style="color:#B10E1E">X</span><span style="color:#85994B">m</span><span style="color:#B10E1E">a</span><span style="color:#85994B">s</span><span>&nbsp;</span><span style="color:#B10E1E">P</span><span style="color:#85994B">r</span><span style="color:#B10E1E">i</span><span style="color:#85994B">n</span><span style="color:#B10E1E">c</span><span style="color:#85994B">i</span><span style="color:#B10E1E">p</span><span style="color:#85994B">l</span><span style="color:#B10E1E">e</span><span style="color:#85994B">s</span>
+      </strong>
+    </h1>
+    <p>Are your christmas needs not being met? Is your turkey not agile enough? Well, listed below are our christmas principles and examples of how we’ve used them so far. They are entirely open source, free to use, for the public good.<br />
+    <span style="font-size:12px;color:#ccc">(Created, produced and owned by Cap Gemini. &copy; Copyright 2015. All rights reserved)</span></p>
+  </header>
 
-<div class="home">
+  {% include nav.html %}
 
-  <h1 class="page-heading">Posts</h1>
+  <ol class="principles">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% include principle_1.html %}
+      {% include principle_2.html %}
+      {% include principle_3.html %}
+      {% include principle_4.html %}
+      {% include principle_5.html %}
+      {% include principle_6.html %}
+      {% include principle_7.html %}
+      {% include principle_8.html %}
+      {% include principle_9.html %}
+      {% include principle_10.html %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  </ol><!-- .principles -->

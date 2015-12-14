@@ -1,0 +1,35 @@
+{
+    "folders": [
+    {
+        "follow_symlinks": true,
+        "folder_exclude_patterns": 
+        [
+          ".sass-cache", 
+          "bower_components", 
+            "node_modules", 
+            // "govuk_modules", 
+            "public",
+            "_site",
+            "docs",
+            "app/views/**/v*",
+            "app/views/safetynet",
+            "app/views/tellmystory",
+            "app/views/application/mvp",
+        ],
+        "file_exclude_patterns": 
+        [
+          ".bowerrc", 
+          "bower.json", 
+          "Gemfile*", 
+          "package.json",
+          "project.sh",
+          "*diff*html",
+          "*.pid",
+          "Procfile"                
+        ],
+        "path": "."
+    }],
+    "settings": {
+      "word_wrap": true,
+    }
+}

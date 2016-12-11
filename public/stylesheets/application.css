@@ -2053,25 +2053,6 @@ html {
   }
 }
 
-#wrapper.design-principles div, #wrapper.design-principles span, #wrapper.design-principles h1, #wrapper.design-principles h2, #wrapper.design-principles h3, #wrapper.design-principles h4, #wrapper.design-principles h5, #wrapper.design-principles h6, #wrapper.design-principles p, #wrapper.design-principles blockquote, #wrapper.design-principles pre, #wrapper.design-principles a, #wrapper.design-principles abbr, #wrapper.design-principles acronym, #wrapper.design-principles address, #wrapper.design-principles big, #wrapper.design-principles cite, #wrapper.design-principles code, #wrapper.design-principles del, #wrapper.design-principles dfn, #wrapper.design-principles em, #wrapper.design-principles img, #wrapper.design-principles ins, #wrapper.design-principles kbd, #wrapper.design-principles q, #wrapper.design-principles s, #wrapper.design-principles samp, #wrapper.design-principles small, #wrapper.design-principles strike, #wrapper.design-principles strong, #wrapper.design-principles sub, #wrapper.design-principles sup, #wrapper.design-principles tt, #wrapper.design-principles var, #wrapper.design-principles b, #wrapper.design-principles u, #wrapper.design-principles i, #wrapper.design-principles center, #wrapper.design-principles dl, #wrapper.design-principles dt, #wrapper.design-principles dd, #wrapper.design-principles ol, #wrapper.design-principles ul, #wrapper.design-principles li, #wrapper.design-principles fieldset, #wrapper.design-principles form, #wrapper.design-principles label, #wrapper.design-principles legend, #wrapper.design-principles table, #wrapper.design-principles caption, #wrapper.design-principles tbody, #wrapper.design-principles tfoot, #wrapper.design-principles thead, #wrapper.design-principles tr, #wrapper.design-principles th, #wrapper.design-principles td, #wrapper.design-principles article, #wrapper.design-principles aside, #wrapper.design-principles canvas, #wrapper.design-principles details, #wrapper.design-principles embed, #wrapper.design-principles figure, #wrapper.design-principles figcaption, #wrapper.design-principles footer, #wrapper.design-principles header, #wrapper.design-principles hgroup, #wrapper.design-principles menu, #wrapper.design-principles nav, #wrapper.design-principles output, #wrapper.design-principles ruby, #wrapper.design-principles section, #wrapper.design-principles summary, #wrapper.design-principles time, #wrapper.design-principles mark {
-  background: transparent;
-  float: none;
-  margin-right: 0;
-  min-height: 0;
-  position: auto;
-  width: auto;
-  height: auto;
-  z-index: auto;
-  border: none;
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  color: inherit;
-}
-
 #wrapper.design-principles a {
   text-decoration: underline;
 }
@@ -2138,7 +2119,7 @@ html {
   line-height: 1.11111;
   font-weight: 400;
   text-transform: none;
-  color: #6f777b;
+  /*color: #6f777b;*/
 }
 
 @media (max-width: 640px) {
@@ -2832,4 +2813,8 @@ html {
 
 .js-enabled #wrapper.design-principles .content-types.open-section .content article {
   opacity: 1;
+}
+
+#wrapper.design-principles a {
+  color:black;
 }

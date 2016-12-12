@@ -64,7 +64,7 @@
 /* local styleguide includes */
 /* Old depricated greys, new things should use the toolkit greys */
 html, body, button, input, table, td, th {
-  font-family: "nta", Arial, sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 html, body, div, h1, h2, h3, h4, h5, h6, article, aside, footer, header, hgroup, nav, section {
   margin: 0;
@@ -404,7 +404,7 @@ button:focus,
       #global-header .header-proposition {
         padding-top: 0; } }
     #global-header .header-proposition #proposition-name {
-      font-family: "nta", Arial, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-size: 24px;
       line-height: 1.25;
       font-weight: 400;
@@ -419,7 +419,7 @@ button:focus,
     #global-header .header-proposition a#proposition-name:hover {
       text-decoration: underline; }
     #global-header .header-proposition a.menu {
-      font-family: "nta", Arial, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-size: 16px;
       line-height: 1.25;
       font-weight: 400;
@@ -487,7 +487,7 @@ button:focus,
       #global-header .header-proposition #proposition-links a {
         color: white;
         text-decoration: none;
-        font-family: "nta", Arial, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         line-height: 1.42857;
         font-weight: 700;
@@ -500,7 +500,7 @@ button:focus,
         @media (min-width: 769px) {
           #global-header .header-proposition #proposition-link a,
           #global-header .header-proposition #proposition-links a {
-            font-family: "nta", Arial, sans-serif;
+            font-family: 'Open Sans', sans-serif;
             font-size: 16px;
             line-height: 1.25;
             font-weight: 700;
@@ -545,7 +545,7 @@ button:focus,
   padding-top: 10px;
   padding-bottom: 10px; }
   #global-cookie-message p {
-    font-family: "nta", Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
@@ -576,7 +576,7 @@ button:focus,
     #footer a:hover {
       color: #171819; }
   #footer h2 {
-    font-family: "nta", Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     line-height: 1.25;
     font-weight: 400;
@@ -609,7 +609,7 @@ button:focus,
         #footer .footer-meta .footer-meta-inner {
           width: 75%; } }
       #footer .footer-meta .footer-meta-inner ul {
-        font-family: "nta", Arial, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         line-height: 1.5;
         font-weight: 400;
@@ -656,7 +656,7 @@ button:focus,
                 background-image: url(images/open-government-licence_2x.png?0.15.1);
                 background-size: 41px 17px; } }
         #footer .footer-meta .footer-meta-inner .open-government-licence p {
-          font-family: "nta", Arial, sans-serif;
+          font-family: 'Open Sans', sans-serif;
           font-size: 16px;
           line-height: 1.25;
           font-weight: 400;
@@ -668,7 +668,7 @@ button:focus,
               font-size: 14px;
               line-height: 1.14286; } }
     #footer .footer-meta .copyright {
-      font-family: "nta", Arial, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-size: 16px;
       line-height: 1.25;
       font-weight: 400;
